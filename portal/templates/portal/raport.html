@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Portal TechniSchool – raport refaktoryzacji</title>
+</head>
+<body>
+  <h1>Portal TechniSchool – raport refaktoryzacji</h1>
+
+  <h2>stolowka.py – SRP + OCP</h2>
+  <ul>
+    {% for w in stolowka %}<li>{{ w }}</li>{% endfor %}
+  </ul>
+
+  <h2>pracownie.py – LSP + ISP</h2>
+  <ul>
+    {% for w in pracownie %}<li>{{ w }}</li>{% endfor %}
+  </ul>
+
+  <h2>dziennik.py – DIP</h2>
+  <ul>
+    {% for w in dziennik %}<li>{{ w }}</li>{% endfor %}
+  </ul>
+</body>
+</html>
