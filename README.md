@@ -1,1 +1,1 @@
-# sprawdzian-solid
+# Wiktor Gudzowski
